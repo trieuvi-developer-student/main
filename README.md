@@ -27,3 +27,7 @@ Music files and playlist configuration remain unchanged: add MP3 files under `as
 - Wide desktop (1280px and above): profile column and music workspace appear side by side.
 - Tablet and phone (1279px and below): the music workspace becomes full-screen; the profile and its navbar are hidden until the user returns to the profile.
 - In wide desktop split mode, the profile navbar is pinned above the left profile column and compacted to prevent it floating in the center across both columns.
+
+## Google Drive music playlist
+
+The four user-provided Google Drive files are configured in `assets/js/data.js` as direct-download media URLs. Each file must have Google Drive General access set to **Anyone with the link — Viewer**. If playback fails, test the direct link in a private browser window; Google Drive may show a download interstitial, throttle popular files, or reject direct streaming/range requests for large files. Google Drive is not a guaranteed media CDN.
